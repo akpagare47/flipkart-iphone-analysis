@@ -9,8 +9,6 @@ This repository contains an end-to-end **Exploratory Data Analysis (EDA)** of Ap
 
 ## 📂 Repository Contents
 - `Flipkart_I Phone Sales - Completed Project.ipynb` – main analysis notebook (with charts visible on GitHub)
-- (Optional) `Flipkart_I Phone Sales - Completed Project.html` – shareable HTML export of the notebook
-- `data/` – place raw data here (e.g., `apple_products.csv`) *(do not commit sensitive data)*
 
 ## 🧰 Tools & Libraries
 - Python, Jupyter Notebook
@@ -43,36 +41,8 @@ Columns include: `Product Name`, `Sale Price`, `Mrp`, `Discount Percentage`, `Nu
 3. Use **value bundles / EMI** for high-priced devices
 4. Continue positioning older models (e.g., iPhone 8/XR) as **affordable premium**
 
-## ▶️ Running the Notebook Locally
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<your-username>/flipkart-iphone-analysis.git
-   cd flipkart-iphone-analysis
-   ```
-2. (Optional) Create a virtual environment and install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-4. Open the notebook and **Run All**.
-
-> If you don’t have a `requirements.txt`, typical libs are:
-> `pandas numpy plotly matplotlib`
-
-## 🚀 Next Steps (Roadmap)
-- Build a **dashboard** (Power BI / Tableau / Plotly Dash / Streamlit)
-- Add **SQL** analysis version
-- Try **segmentation/clustering** of models by price & popularity
-- Automate data refresh (web scraping or APIs)
-
-## 📄 License
-MIT License (or choose your own)
-
 ---
 
-**Author:** Your Name  
-**Contact:** LinkedIn / Email  
+**Author:** Akshay Pagare
+**Contact:** aapagare94@gmail.com 
 **Note:** This project is for learning/portfolio purposes.
